@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор цветов</title>
+    <link rel="stylesheet" href="style.css" type="text/css"/> 
+</head>
+<body>
+    <h1>Калькулятор цветов</h1>
+    <form>
+        <h2>
+            <br>RGB</br></h2>
+        <div>
+            <input class="in_num" type="number" name="R" id = "R" value="100" step="1" min="0" max="255">
+            <input class="in_num" type="number" name="G" id = "G" value = "20" step="1" min="0" max="255">
+            <input class="in_num" type="number" name="B" id = "B" value = "40" step="1" min="0" max="255"> 
+        </div>
+
+         <h2><br>CMY</br></h2>
+        <div>
+            <input class="in_num" type="number" name = "C" id="C" value = "0" step="1" min="0" max="255">
+            <input class="in_num" type="number" name = "M" id="M" value = "0" step="1" min="0" max="255">
+            <input class="in_num" type="number" name = "Y" id="Y" value = "0" step="1" min="0" max="255">
+        </div>
+        <h2><br>HLS</br></h2>
+        <div>
+            <input class="in_num" type="number" name = "H" id="H" value = "0" step="1" min="0" max="360">
+            <input class="in_num" type="number" name = "L" id="L" value = "0" step="1" min="0" max="100">
+            <input class="in_num" type="number" name = "S" id="S" value = "0" step="1" min="0" max="100">
+        </div>
+        <h2></h2>
+    </form>
+        <script src="main.js"></script>
+</body>
+</html>
